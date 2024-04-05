@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define base paths for OT and NT directories
-OT_PATH="/opt/bible/OT"
-NT_PATH="/opt/bible/NT"
+OT_PATH="/opt/SSH-bible-verse/bible/OT"
+NT_PATH="/opt/SSH-bible-verse/bible/NT"
 
 # Lists of OT and NT books
 OT_BOOKS=(GEN EXO LEV NUM DEU JOS JDG RUT 1SA 2SA 1KI 2KI 1CH 2CH EZR NEH EST JOB PSA PRO ECC SNG ISA JER LAM EZK DAN HOS JOE AMO OBA JON MIC NAH HAB ZEP HAG ZEC MAL)
