@@ -13,7 +13,10 @@ sudo apt-get install jq -y && sudo apt-get install curl && sh -c "$(curl -fsSL h
 ```
 
 
-https://github.com/davidinfosec/SSH-bible-verse/assets/87215831/2cab33c8-6930-4185-b297-cd4c83540f5e
+
+https://github.com/davidinfosec/SSH-bible-verse/assets/87215831/2cf3dc43-26bb-4591-862b-b48d920c8615
+
+
 
 
 1. **Prepare the Installation Script**: 
