@@ -7,6 +7,12 @@ Random bible verse on SSH connection
 
 #### Installation Instructions:
 
+1 command install:
+```
+git clone https://github.com/davidinfosec/SSH-bible-verse.git && chmod +x SSH-bible-verse/install.sh && sudo SSH-bible-verse/install.sh
+```
+
+
 1. **Prepare the Installation Script**: 
    - Save the above script as `install_ssh_verse.sh` on your server.
    - Ensure you replace `https://github.com/davidinfosec/SSH-bible-verse/` with the actual URL of your GitHub repository where the Bible content is stored.
