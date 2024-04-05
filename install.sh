@@ -36,3 +36,4 @@ git clone "$REPO_URL" "$BIBLE_DIR" || { echo "Failed to clone repository."; exit
 # Create the display script in /etc/profile.d with executable permissions
 echo "Creating and setting executable permissions for the display script at $SCRIPT_PATH..."
 cat << 'EOF' > "$SCRIPT_PATH"
+EOF
