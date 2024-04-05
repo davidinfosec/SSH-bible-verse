@@ -9,7 +9,7 @@ Random bible verse on SSH connection
 
 1 command install:
 ```
-sudo git clone https://github.com/davidinfosec/SSH-bible-verse.git && chmod +x SSH-bible-verse/install.sh && sudo SSH-bible-verse/install.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/davidinfosec/SSH-bible-verse/main/install.sh)"
 ```
 
 
