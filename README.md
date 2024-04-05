@@ -1,7 +1,7 @@
 # SSH-bible-verse
 Random bible verse on SSH connection
 
-1. **Clone the Bible content from a GitHub repository to `/opt/bible`**.
+1. **Clone the Bible content from a GitHub repository to `/opt/SSH-bible-verse/bible`**.
 2. **Install a script that displays a random Bible verse to `/etc/profile.d` and ensures it's executable**.
 3. **Make necessary preparations for running the script automatically upon SSH login**.
 
