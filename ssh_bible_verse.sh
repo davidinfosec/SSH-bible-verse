@@ -23,7 +23,7 @@ fi
 BOOK=${BOOKS[$RANDOM % ${#BOOKS[@]}]}
 
 # Construct the path to the book's JSON file
-JSON_PATH="$BOOK_PATH/$BOOK/ESV.json"
+JSON_PATH="$BOOK_PATH/$BOOK/KJV.json"
 
 # Check if the JSON file exists
 if [ ! -f "$JSON_PATH" ]; then
