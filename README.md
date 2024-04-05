@@ -49,4 +49,5 @@ https://github.com/davidinfosec/SSH-bible-verse/assets/87215831/2cab33c8-6930-41
 - Ensure Git, `jq`, and `curl` are installed on your system before running the installation script (`install.sh`).
 - This installation and the display script are designed for systems with `bash`, `jq`, `curl`, and `git` available and may need adjustments for other environments.
 - Review and test the script in a safe environment before deploying to production to ensure it meets your needs.
+- .json bible files were taken from the https://github.com/bobuk/holybooks/ repository.
 ```
