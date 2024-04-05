@@ -13,12 +13,13 @@ cd "$INSTALL_PATH" || { echo "Failed to change directory to $INSTALL_PATH"; exit
 
 # Step 3: Move ssh-bible-verse.sh to /etc/profile.d and set execute permissions
 echo "Setting up the ssh-bible-verse script..."
-if [ -f "ssh_bible_verse.sh" ]; then
-    chmod +x "ssh_bible_verse.sh"
-    mv "ssh_bible_verse.sh" "/etc/profile.d/ssh_bible_verse.sh" || { echo "Failed to move and set permissions for ssh_bible_verse.sh"; exit 1; }
+if [ -f "sshverse.sh" ]; then
+    chmod +x "sshverse.sh"
+    mv "sshverse.sh" "/etc/profile.d/sshverse.sh" || { echo "Failed to move and set permissions for sshverse.sh"; exit 1; }
 else
-    echo "ssh_bible_verse.sh not found in the cloned repository."
+    echo "sshverse.sh not found in the cloned repository."
     exit 1
 fi
+
 
 echo "Installation completed successfully."
