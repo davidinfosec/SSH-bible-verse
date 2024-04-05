@@ -28,7 +28,7 @@ git clone "$REPO_URL" "$INSTALL_DIR" || { echo "Failed to clone repository."; ex
 # Create the display script in /etc/profile.d
 SCRIPT_PATH="/etc/profile.d/ssh_bible_verse.sh"
 echo "Creating the display script at $SCRIPT_PATH..."
-cat << 'EOF' > "$SCRIPT_PATH"
+cat << EOF > "$SCRIPT_PATH"
 #!/bin/bash
 
 # Define base paths for OT and NT directories
