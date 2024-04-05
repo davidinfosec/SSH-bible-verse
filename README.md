@@ -9,7 +9,7 @@ Random bible verse on SSH connection
 
 1 command install:
 ```
-sudo apt-get install jq -y && sh -c "$(curl -fsSL https://raw.githubusercontent.com/davidinfosec/SSH-bible-verse/main/install.sh)"
+sudo apt-get install jq -y && sudo apt-get install curl && sh -c "$(curl -fsSL https://raw.githubusercontent.com/davidinfosec/SSH-bible-verse/main/install.sh)"
 ```
 
 
