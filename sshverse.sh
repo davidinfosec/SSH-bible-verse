@@ -32,7 +32,8 @@ if [ ! -f "$JSON_PATH" ]; then
 fi
 
 # Use jq to parse the JSON file and shuf to select a random verse along with its chapter ID
-RANDOM_VERSE_DATA=$(jq -r '[.text[].text[]] | .[] | "\(.ID) \(.text)"' "$JSON_PATH" | shuf -n 1)
+
+RANDOM_VERSE_DATA=$(jq -r '.text[].text[] | select(.text != "") | "\(.ID) \(.text)"' "$JSON_PATH" | shuf -n 1)
 CHAPTER_ID=$(echo "$RANDOM_VERSE_DATA" | cut -d' ' -f1)
 VERSE_TEXT=$(echo "$RANDOM_VERSE_DATA" | cut -d' ' -f2-)
 
