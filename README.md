@@ -12,6 +12,10 @@ Random bible verse on SSH connection
 sudo apt-get install jq -y && sudo apt-get install curl && sh -c "$(curl -fsSL https://raw.githubusercontent.com/davidinfosec/SSH-bible-verse/main/install.sh)"
 ```
 
+
+https://github.com/davidinfosec/SSH-bible-verse/assets/87215831/2cab33c8-6930-4185-b297-cd4c83540f5e
+
+
 1. **Prepare the Installation Script**: 
    - Save the above script as `install.sh` on your server.
    - Ensure you replace `https://github.com/davidinfosec/SSH-bible-verse/` with the actual URL of your GitHub repository where the Bible content (e.g., `kjv.json`) is stored.
