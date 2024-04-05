@@ -4,6 +4,10 @@
 INSTALL_PATH="/opt/SSH-bible-verse"
 REPO_URL="https://github.com/davidinfosec/SSH-bible-verse"
 
+# Install jq
+echo "Installing jq..."
+sudo apt-get install jq || { echo "Failed to install jq."; exit 1; }
+
 # Step 1: Clone the repository
 echo "Cloning the repository to $INSTALL_PATH..."
 git clone "$REPO_URL" "$INSTALL_PATH" || { echo "Failed to clone the repository."; exit 1; }
@@ -20,6 +24,5 @@ else
     echo "sshverse.sh not found in the cloned repository."
     exit 1
 fi
-
 
 echo "Installation completed successfully."
