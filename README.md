@@ -42,6 +42,12 @@ https://github.com/davidinfosec/SSH-bible-verse/assets/87215831/2cf3dc43-26bb-45
   bash /etc/profile.d/sshverse.sh
   ```
 
+  #### Uninstall
+  
+  ```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/davidinfosec/SSH-bible-verse/main/uninstall.sh)"
+  ```
+
 #### Customization:
 
 - **Changing the Bible Repository**: If you want to use a different repository for the Bible content, modify the `REPO_URL` variable in the installation script (`install.sh`) accordingly.
