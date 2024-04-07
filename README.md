@@ -44,7 +44,7 @@ https://github.com/davidinfosec/SSH-bible-verse/assets/87215831/2cf3dc43-26bb-45
 
   #### Uninstall
   
-  ```
+  ```bash
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/davidinfosec/SSH-bible-verse/main/uninstall.sh)"
   ```
 
